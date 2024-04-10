@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quote-box {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-size: 1.5em;
+}
+
+#author {
+  font-size: 1em;
+}
+
+#btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
